@@ -1,0 +1,361 @@
+.section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.imlant_section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.implant_wrap{
+    display: flex;
+    justify-content: space-between;
+
+}
+.implant_price_img{
+    background: url('img/action/price.png');
+    width: 560px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+
+}
+.implant_price_wrapper{
+    padding: 25px 145px;
+
+    text-align: center;
+}
+.implant_ostem1,
+.implant_ostem2{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 56px;
+}
+
+.implant_ostem1{
+
+}
+.implant_ostem2{
+    color: rgba(105, 95, 219, 1);
+    text-transform: uppercase;
+}
+.implant_price_info{
+    padding-top: 5px;
+}
+.implant_price_val{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 46px;
+    color: #fff;
+    padding: 5px 0px;
+    background: linear-gradient(102.92deg, #695FDB 19.06%, #39338A 105.5%);
+    border-radius: 10px;
+}
+
+.implant_price_text{
+    padding-top: 8px;
+    color: #404040;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+}
+.implant_price_text span{
+    font-size: 20px;
+}
+.price_disclemer{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+
+    color: #404040;
+    margin: 150px auto 0 auto;
+    max-width: 520px;
+}
+.zub_block img{
+    display: block;
+}
+.zub_block .btn_custom{
+    margin-left: 80px;
+    margin-top: 70px;
+}
+/* conscurs */
+.concurs_section{
+    margin-top: 150px;
+}
+.concurs_title{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #404040;
+
+    max-width: 820px;
+    margin: 0 auto;
+}
+.concurs_doctors_block{
+    padding: 0 85px;
+    display: flex;
+    justify-content: space-between;
+}
+.concurs_doctors_block .doctor_item{
+    max-width: 230px;
+}
+.concurs_doctors_block .doctor_item_img{
+    max-height: 230px;
+    height: 230px;
+    overflow: hidden;
+}
+.concurs_doctors_block .doctor_item:last-child img{ /* последняя фото    */
+    height: 100%;
+}
+.concurs_doctors_block .info{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    min-height: 200px;
+    padding-top: 30px;
+}
+.concurs_doctors_block .info .name{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+    padding: 0 23px;
+    margin: 0;
+    min-height: 44px;
+}
+.concurs_doctors_block .info .text{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #000000;
+    padding: 0px 15px 0 15px;
+}
+.concurs_doctors_block .info .text ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/**/
+
+.timeinstall_section{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timeinstall_block{
+    position: relative;
+    margin-left: 60px;
+    width: 60%;
+    /* filter: drop-shadow(0px 4px 20px #695FDB); */
+}
+.timeinstall_info{
+    position: relative;
+    border: 1px solid #695FDB;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #404040;
+
+    padding: 48px 30px;
+}
+.timeinstall_info p{
+    text-align: center;
+}
+.timeinstall_info p span{
+    color: #39338A;
+}
+.timeinstall_block .btn_custom{
+    margin-top: 35px;
+    margin-left: 30%;
+}
+.zub_fly1{
+    position: absolute;
+    left: -40px;
+    top: 5px;
+}
+.zub_fly2{
+    position: absolute;
+    bottom: -110px;
+    right: -5px;
+}
+/**/
+
+.benefit_section{
+    margin-top: 80px;
+
+}
+.action_title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+}
+.action_title span:first-child{
+    color: #404040;
+}
+.action_title span:last-child{
+    color: #39338A
+}
+.benfit_block{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 981px;
+    margin: 67px auto 0 auto;
+}
+.benefit_item{
+    max-width: 230px;
+}
+.benefit_item img{
+    display: block;
+    margin: 0 auto;
+}
+.benefit_item p{
+    text-align: center;
+    margin: 0;
+    padding: 15px 0 0 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+.benefit_item p span{
+    color: #39338A;
+}
+
+.benefit_price{
+    position: absolute;
+    background: url(img/action/circle_benefit.svg);
+    width: 479px;
+    height: 393px;
+    z-index: -1;
+    background-size: contain;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+.benefit_price .benefit_price_title{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #404040;
+    margin-top: -15px;
+}
+.benefit_row1 .benefit_item:last-child,
+.benefit_row2 .benefit_item:last-child{
+    padding-top: 100px;
+}
+
+.benefit_price_val{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.benefit_price_val-old{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1;
+    padding-left: 35px;
+    
+    color: #404040;
+}
+.benefit_price_val-old span{
+    position: relative;
+}
+.benefit_price_val-old span:before{
+    content: '';
+    position: absolute;
+    border-top: 1.5px solid #000000;
+    transform: rotate(-16.57deg);
+    width: 100%;
+    top: 15px;
+}
+.benefit_price_val-new{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 1;
+    text-align: center;
+
+    color: #39338A;
+}
+.benefit_section  .btn_custom{
+    display: block;
+    margin: 35px auto 0 auto;
+    max-width: 270px;
+}
+/* cond act */
+.condition_section{
+    margin-top: 170px;
+}
+.condition_block{
+    margin-top: 40px;
+    margin-bottom: 85px;
+    background: linear-gradient(272.06deg, #39338A 7.27%, #695FDB 100.98%);
+    padding: 42px 73px;
+}
+.condition_block .cond_text{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.condition_block .cond_text ul{
+    list-style: none;
+}
+.cond_banner{
+    background: url(img/action/cons_banner.png);
+}
+/*  */
+/* btn */
+.btn_custom{
+    display: inline-block;
+    color: #fff;
+    background: linear-gradient(98.38deg, #695FDB 22.43%, #39338A 95.58%);
+    box-shadow: 0px 4px 20px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 20px 40px;
+    text-align: center;
+}
+/**/
