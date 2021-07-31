@@ -533,7 +533,29 @@
 }
 /**/
 
-
+.smiles_section{
+    margin-top: 170px;
+}
+.smiles_block{
+    margin: 0 auto;
+    position: relative;
+}
+.smiles_block img:first-child{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.smiles_block img:last-child{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.smiles_block img{
+    display: block;
+    margin: 0 auto;
+}
 /* btn */
 .btn_custom{
     display: inline-block;
