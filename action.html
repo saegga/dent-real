@@ -24,6 +24,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" />
+    <script src="jquery.flexslider.js"></script>
 </head>
 <body>
     
@@ -290,13 +293,117 @@
 
         <div class="smiles_block">
             <div class="smile_img">
+                <i></i>
                 <img src="img/action/smile_left.png" alt="">
             </div>
+            <div class="smile_img">
+                <i></i> 
+                <img src="img/action/smile_center.png" alt="">
+            </div>
+            <div class="smile_img">
+                  
+                <img src="img/action/smile_right.png" alt="">
+            </div>
             
-            <img src="img/action/smile_center.png" alt="">
-            <img src="img/action/smile_right.png" alt="">
+            
         </div>
     </div>
     <!--  -->
+
+    <!-- license -->
+    <div class="license_section section">
+        <div class="action_title">Лицензии и патенты</div>
+
+        <div class="license_slider flexslider">
+            <ul class="slides">
+                <li><img src="img/action/license1.png" alt=""></li>
+                <li><img src="img/action/license1.png" alt=""></li>
+                <li><img src="img/action/license1.png" alt=""></li>
+                <li><img src="img/action/license1.png" alt=""></li>
+                <li><img src="img/action/license1.png" alt=""></li>
+            </ul>
+            <div class="nav_license">
+                <a href="" class="prev"></a>
+                <a href="" class="next"></a>
+            </div>
+        </div>
+        <a href="" class="btn_custom">Записаться онлайн</a>
+    </div>
+    <!--  -->
+
+    <!-- zdorovie -->
+    <div class="zdorovie_wrap">
+        <div class="zdorovie_section section">
+            <div class="action_title">Залог <span>здоровья</span> наших пациентов – это</div>
+    
+            <div class="zdorovie_items">
+                <div class="zdorovie_first_line">
+                    <div class="zdorovie_item">
+                        <img src="img/action/diag.png" alt="">
+                        <div class="zdoroview_item-name">
+                            Точная <span>комплексная</span> диагностика
+                        </div>
+                    </div>
+                    <div class="zdorovie_item">
+                        <img src="img/action/hands.png" alt="">
+                        <div class="zdoroview_item-name">
+                            Работа в <span>4 руки</span> с ассистентом
+                        </div>
+                    </div>
+                </div>
+                <div class="zdorovie_second_line">
+                    <div class="zdorovie_item">
+                        <img src="img/action/stage.png" alt="">
+                        <div class="zdoroview_item-name">
+                            <span>Трёхэтапная</span> стерилизация
+                        </div>
+                    </div>
+                    <div class="zdorovie_item">
+                        <img src="img/action/fotoprotokol.png" alt="">
+                        <div class="zdoroview_item-name">
+                            Ведение <span>фотопротокола</span>
+                        </div>
+                    </div>
+                    <div class="zdorovie_item">
+                        <img src="img/action/le_zoom.png" alt="">
+                        <div class="zdoroview_item-name">
+                            Лечение под <span>увеличением</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="zdorovie_third_line">
+                    <div class="zdorovie_item">
+                        <img src="img/action/obz.png" alt="">
+                        <div class="zdoroview_item-name">
+                            <span>Обязательный</span> промежуточный контроль
+                        </div>
+                    </div>
+                    <div class="zdorovie_item">
+                        <img src="img/action/ber.png" alt="">
+                        <div class="zdoroview_item-name">
+                            <span>Бережное</span> отношение
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="jaw"><img src="img/action/jaw.png" alt=""></div> -->
+        </div>
+    </div>
+
+    <!--  -->
 </body>
 </html>
+
+<script>
+$(document).ready(function(){
+    $('.flexslider').flexslider({
+        animation: "slide",
+        itemWidth: 256,
+        itemMargin: 35,
+        minItems: 3,
+        // maxItems: 3,
+        controlNav: false,
+        customDirectionNav: $(".nav_license a")
+    });
+});
+</script>
