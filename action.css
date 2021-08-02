@@ -2,6 +2,67 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+/* banner */
+.banner_flow{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.right_sec_banner{
+    width: 56%;
+    flex: 1 0 50%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background: url(img/action/banner_top_fon.png);
+}
+.banner_flow .title{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+    
+    color: #39338A;
+}
+.banner_flow .banner_text{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 70px;
+}
+.banner_flow .banner_text .btn_custom{
+    display: block;
+    margin: 30px auto 0 auto;
+    max-width: 270px;
+}
+.banner_flow .under_title{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #404040;
+
+}
+.banner_flow .disclemer{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+
+    color: #3A296A;
+
+    max-width: 284px;
+    left: 35%;
+}
+/**/
 .imlant_section{
     max-width: 1200px;
     margin: 0 auto;
