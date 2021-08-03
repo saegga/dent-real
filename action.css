@@ -7,6 +7,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 95px;
 }
 .right_sec_banner{
     width: 56%;
@@ -135,13 +136,16 @@
     margin: 150px auto 0 auto;
     max-width: 520px;
 }
-.zub_block img{
+/* .zub_block img{
     display: block;
-}
+} */
 .zub_block .btn_custom{
     margin-left: 80px;
     margin-top: 70px;
 }
+.price_disclemer.mob{display: none;}
+.desktop_zub{display: block;}
+.mob_zub{display: none;}
 /* conscurs */
 .concurs_section{
     margin-top: 150px;
@@ -776,3 +780,136 @@
     background-position: 266px; */
 }
 /**/
+
+@media(max-width: 768px){
+    .banner_flow{
+        display: block;
+    }
+    .right_sec_banner{
+        width: 100%;
+        flex: unset;
+        position: static;
+        right: unset;
+    }
+    .banner_flow .banner_text{
+        position: static;
+        padding-left: unset;
+        transform: unset;
+    }
+    .banner_flow .under_title{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .banner_flow .under_title p{
+        display: inline;
+    }
+    .banner_flow .banner_text .btn_custom{
+        font-size: 12px;
+        padding: 10px 0px;
+        max-width: 190px;
+    }
+    .banner_flow .disclemer{
+        position: static;
+        margin: 42px auto 0 auto;
+
+    }
+    .implant_wrap{
+        flex-flow: column-reverse;
+    }
+    .implant_price_img{
+        margin: 0 35px;
+        width: auto;
+        height: auto;
+    }
+    .implant_ostem1, .implant_ostem2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .implant_price_wrapper{
+        padding: 25px 60px;
+    }
+    .implant_price_val{
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 145px;
+        margin: 10px auto 0 auto;
+    }
+    .implant_price_text{
+        font-size: 10px;
+    }
+    .implant_price_text span{
+        font-size: 16px;
+    }
+    .desktop_zub{display: none;}
+    .mob_zub{display: block; margin: 32px auto 0 auto;}
+    .price_disclemer{display: none;}
+    .price_disclemer.mob{display: block; font-size: 8px; margin: 40px auto 0 auto; padding: 0 10px;}
+    .zub_block .btn_custom{
+        font-size: 12px;
+        padding: 10px 40px;
+        margin-top: 40px;
+    }
+    .concurs_section{
+        margin-top: 75px;
+    }
+    .concurs_title{
+        font-size: 16px;
+        padding: 0 12px;
+        line-height: 19px;
+    }
+    .concurs_doctors_block{
+        flex-flow: column;
+        align-items: center;
+    }
+    .concurs_doctors_block .doctor_item{
+        margin-bottom: 10px;
+    }
+    .timeinstall_section img{
+        display: none;
+    }
+    .timeinstall_info{
+        font-size: 14px;
+        line-height: 17px;
+        padding: 24px 14px;
+        width: 305px;
+        margin: 0 auto;
+        margin-left: 0;
+    }
+    .timeinstall_block{
+        width: auto;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    .timeinstall_block .btn_custom{
+        font-size: 12px;
+        margin: 35px auto 0 auto;
+        display: block;
+        max-width: 170px;
+        padding: 8px 0;
+    }
+    .action_title{
+        font-size: 16px;
+    }
+
+
+    .condition_section{
+        margin-top: 73px;
+    }
+    .condition_block{
+        padding: 16px 73px;
+        margin-top: 18px;
+        margin-bottom: 15px;
+    }
+    .condition_block .cond_text{
+        font-size: 12px;
+        line-height: 14px;
+        
+    }
+    .cond_banner{
+        height: 230px;
+    }
+    .cond_banner:before{
+        top: -15px;
+        height: 67px;
+    }
+}
