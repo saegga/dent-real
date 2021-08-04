@@ -591,6 +591,9 @@
     color: #000000;
     list-style: none;
 }
+.stage_item-point ul li::before{
+    content: '.';
+}
 .stage_item-point ul{
     padding: 0;
     margin: 0 0 0 45px;
@@ -645,6 +648,8 @@
     display: block;
     margin: 0 auto;
 }
+.smiles_block.desctop{display: block;}
+.smiles_block.mobile{display: none;}
 .license_section{
     margin-top: 125px;
 }
@@ -781,6 +786,9 @@
 }
 /**/
 
+.zdorovie_items.desctop{display: flex;}
+.zdorovie_items.mob{display: none;}
+
 @media(max-width: 768px){
     .banner_flow{
         display: block;
@@ -889,11 +897,71 @@
     }
     .action_title{
         font-size: 16px;
+        line-height: 19px;
     }
 
 
+
+
+    .benfit_block{
+        display: block;
+    }
+    .benefit_row1, .benefit_row2{
+        display: inline-block;
+        width: 49%;
+        vertical-align: top;
+    }
+    .benefit_item img{
+        max-width: 72px;
+    }
+    .benefit_item p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .benefit_price_val,
+    .benefit_price{
+        position: static;
+        transform: unset;
+    }
+    .benefit_price_val{
+        margin-top: 40px;
+    }
+    .benefit_price .benefit_price_title{
+        font-size: 14px;
+        position: relative;
+        top: -25px;
+        margin-top: 0;
+    }
+    .benefit_price_val-new{
+        font-size: 35px;
+    }
+    .benefit_price_val-old{
+        font-size: 10px;
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+        padding-left: 5px;
+    }
+    .benefit_price_val-old span:before{
+        top: 6px;
+    }
+    .benefit_price{
+        margin-top: 50px;
+        background: url(img/action/circle_benefit_mob.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 207px;
+    }
+    .benefit_section .btn_custom{
+        font-size: 12px;
+        max-width: 170px;
+        padding: 9px 20px;
+    }
+
     .condition_section{
-        margin-top: 73px;
+        margin-top: 60px;
     }
     .condition_block{
         padding: 16px 73px;
@@ -905,6 +973,9 @@
         line-height: 14px;
         
     }
+    .condition_block .cond_text ul{
+        padding: 0;
+    }
     .cond_banner{
         height: 230px;
     }
@@ -912,4 +983,127 @@
         top: -15px;
         height: 67px;
     }
+    .banner_form{
+        display: none;
+    }
+    .stages_block{
+        padding: 0 15px;
+        background: url(img/action/stages_fon_mob.png);
+        background-repeat: no-repeat;
+        background-position: right 70px;
+    }
+    .stage_title{
+        padding-left: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+    .img_stage_3_4 img,
+    .stage_item.first > img{
+        display: none;
+    }
+    .img_stage_3_4{
+        border: none;
+    }
+    .stage_item-point{
+        margin-bottom: 16px;
+    }
+    .stage_item.second{
+        float: left;
+    }
+    .stage_item-point > span{
+        font-size: 50px;
+        width: 30px;
+        line-height: 60px;
+    }
+    .stage_item-point ul li{
+        font-size: 10px;
+    }
+    .stage_item-point ul{
+        margin: 0 0 0 25px;
+    }
+    .stage_item.third .stage_item-point{
+        max-width: 100%;
+    }
+    .stage_item.third > img{
+        position: static;
+        transform: unset;
+        display: block;
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .smiles_section{
+        margin-top: 70px;
+    }
+    .smiles_block.desctop{display: none;}
+    .smiles_block.mobile{display: block;}
+    .smiles_block{
+        padding: 0 15px;
+        margin: 25px auto 0 auto;
+    }
+    .smiles_block .smile_img:first-child{
+        margin-right: 10%;
+    }
+    .smiles_block .smiles_top .smile_img{
+        position: relative;
+        transform: unset;
+        max-width: 45%;
+    }
+    .smiles_block > .smile_img:last-child{
+        position: static;
+        transform: unset;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .smiles_block .smile_img img{
+        max-width: 100%;
+    }
+    .smiles_top{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .smiles_block .smile_img:nth-child(2) i{
+        bottom: -20px;
+        width: 114px;
+        height: 114px;
+    }
+    .smiles_block .smile_img:first-child i{
+        width: 64px;
+        height: 64px;
+        top: 70px;
+        left: 30%;
+    }
+
+    .license_slider.flexslider{
+        max-width: 80%;
+        margin: 30px auto 30px auto;
+    }
+    .nav_license a{
+        width: 23px;
+        height: 23px;
+    }
+    .nav_license a::before{
+        width: 16px;
+        height: 16px;
+        background-size: cover;
+    }
+    .nav_license a.next{
+        
+        right: -30px;
+    }
+    .nav_license a.prev{
+        left: -30px;
+    }
+    .license_section{
+        margin-top: 75px;
+    }
+    .license_section .btn_custom{
+        font-size: 12px;
+        max-width: 170px;
+        padding: 9px 20px;
+    }
+    .zdorovie_section{
+        margin-top: 30px;
+    }
+    .zdorovie_items.desctop{display: none;}
+    .zdorovie_items.mob{display: block;}
 }
